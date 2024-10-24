@@ -1,0 +1,38 @@
+cms (28min)
+https://www.youtube.com/watch?v=nEacnQTs-dg&list=PLqKuDFs5Nd3K3OpZ2lAsMwJSDi-Oh8myI&index=5
+
+https://www.youtube.com/watch?v=_mf_yz9r8BQ&list=PLqKuDFs5Nd3K3OpZ2lAsMwJSDi-Oh8myI
+
+//рядок адреси:
+// запускаються класи з закінченням 'Controller' і методи з закінченням 'Action'
+// view = action
+// інші - внутрішні
+http://site/nameController/methodAction
+
+// index:
+// echo $_GET['route'];
+// echo $_GET['name'];
+// routing (обробка url-адрес):
+// http://site/controller/action
+
+
+// http://cms/news/edit?id=5
+// http://cms/news/register
+
+
+//DEBUG
+        var_dump($statusCode/100);die;
+
+//APP (in global module)
+$app = Core::getInstance()->app;
+
+
+//PHP Doc: /**
+https://en.wikipedia.org/wiki/PHPDoc
+
+========================================
+// запуск build/index.html серевером php
+ cd build && php -S localhost:3000 -t
+ php -S localhost:3000
+https://ru.legacy.reactjs.org/docs/add-react-to-a-website.html
+https://javascript.ru/forum/library-toolkit-framework/77376-zapusk-react-proekta-bez-npm.html
